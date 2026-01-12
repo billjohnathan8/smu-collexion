@@ -6,13 +6,17 @@
 **SMU Collexion** is a **microservices-based** and **cloud-native** software solution. It features the ability to **Create, Read, Update, and Delete (CRUD)** *booking timeslots* and *course sections for curriculum modules* (or classes taken for a degree program progression). 
 
 ## Aims & Purpose
-This project's creation and development is used for the sole purpose of learning, applying, and practicing the following skills:
-- Programming & Coding (in Multiple Languages: Java, Python, JavaScript, TypeScript, HTML, CSS, Golang, Shell Scripts)
-- Familiarising with the vibrant developer ecosystem and services in web development
-- Building Fullstack Web Applications from End-to-End (Frontend Design & RESTful API Design)
-- System Design and Considerations for RESTful Applications using Microservices Architecture
-- Familiarising with Tooling and Cloud Providers (e.g. AWS) for use in End-to-End Deployment of Web Applications
-- Learning the importance of Testing and DevOps
+This is a **microservices-based student project** built to practice end-to-end software development (from UI → APIs → databases → cloud deployment) through project-based learning. Going from learning to applying.
+
+### Learning outcomes
+- **Programming and Coding:** practicing to develop in multiple languages (Python, Java, JavaScript, TypeScript, Golang, Shell Script, HTML, CSS).
+- **Developer & Project Management Workflows:** using ScrumBan for project management and collaborative software development tools.
+- **Technology Exposure:** learning about and exposing ourselves to new technologies across the vibrant developer ecosystem.
+- **Full-Stack Development:** building the Frontend, Backend services, and Database workflows together to create an end-to-end (E2E) workflow.
+- **Microservices & Integration:** designing services that communicate via RESTful APIs and messaging.
+- **Cloud & Infrastructure:** deploying and operating the system using cloud platforms and IaC tools.
+- **DevOps & Testing:** automated pipelines, testing practices, and developer tooling.
+- **System Architecture:** applying scalable design patterns and documenting system decisions.
 
 # Architecture
 ## Tech & Development Stack 
