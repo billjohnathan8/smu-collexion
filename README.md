@@ -1,12 +1,25 @@
-# SMU Collexion Platform
+# SMU Collexion
 ## Overview
-**SMU Collexion** is an curriculum and scheduling platform used to aggregate **two core services** that a typical SMU student would use internally: (1) [SMU Facility Booking System (FBS)](https://www.smubondue.com/facility-booking-system-fbs?lightbox=dataItem-lxee07hi4) and (2) [Bidding Online SyStem (BOSS)](https://blog.smu.edu.sg/story/how-bid-boss). This project is meant to be used for strictly educational purposes. 
+**SMU Collexion** is an **curriculum and scheduling platform** used to aggregate **two core services** that a typical SMU student would use internally: (1) [SMU Facility Booking System (FBS)](https://www.smubondue.com/facility-booking-system-fbs?lightbox=dataItem-lxee07hi4) and (2) [Bidding Online SyStem (BOSS)](https://blog.smu.edu.sg/story/how-bid-boss). This project is meant to be used for strictly educational purposes. 
 
 ## Technical Specifications
-**SMU Collexion** is a **microservices-based** and **cloud-native** software solution. It features the ability to **Create, Read, Update, and Delete (CRUD)** **booking timeslots** and **course sections for curriculum modules** (or classes taken for a degree program progression). Its creation is used for the sole purpose of training **fullstack web application development**, **cloud deployment**, and **DevOps** skills. 
+**SMU Collexion** is a **microservices-based** and **cloud-native** software solution. It features the ability to **Create, Read, Update, and Delete (CRUD)** *booking timeslots* and *course sections for curriculum modules* (or classes taken for a degree program progression). 
 
-## Tech Stack
-### 📷 Frontend
+## Aims & Purpose
+This project's creation and development is used for the sole purpose of learning, applying, and practicing the following skills:
+- Programming & Coding (in Multiple Languages: Java, Python, JavaScript, TypeScript, HTML, CSS, Golang, Shell Scripts)
+- Familiarising with the vibrant developer ecosystem and services in web development
+- Building Fullstack Web Applications from End-to-End (Frontend Design & RESTful API Design)
+- System Design and Considerations for RESTful Applications using Microservices Architecture
+- Familiarising with Tooling and Cloud Providers (e.g. AWS) for use in End-to-End Deployment of Web Applications
+- Learning the importance of Testing and DevOps
+
+## Reference
+![SMU Connexion Building taken from SMU's Official Website](assets/logo/smu-connexion.png)
+Like the [SMU Connexion](https://www.smu.edu.sg/campus-life/campus-development/smu-connexion) building that completed its construction in 2018 - SMU Collexion aims to achieve similar conveniences for exisitng or matriculating SMU students of any degree program by providing a centralized hub where a student can view all the essential information they would need for SMUGGING.
+
+# Tech Stack
+## 📷 Frontend
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -29,7 +42,7 @@
 - [React.js](https://react.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
 
-### 💻 Backend
+## 💻 Backend
 ![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![SQLAlchemy](https://img.shields.io/badge/sqlalchemy-%23D71F00.svg?style=for-the-badge&logo=sqlalchemy&logoColor=white)
@@ -41,7 +54,7 @@
 - [SQLAlchemy](https://www.sqlalchemy.org/) [Object-Relational Mapping (ORM)](https://en.wikipedia.org/wiki/Object%E2%80%93relational_mapping)
 - [MySQL](https://www.mysql.com/) for [Standard Query Langauge (SQL)](https://www.w3schools.com/sql/sql_intro.asp)
 
-### 🧪 Testing
+## 🧪 Testing
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 ![Vitest](https://img.shields.io/badge/-Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B)
 ![Pytest](https://img.shields.io/badge/pytest-%23ffffff.svg?style=for-the-badge&logo=pytest&logoColor=2f9fe3)
@@ -56,7 +69,7 @@
 - [PyTest](https://docs.pytest.org/en/stable/)
 - [Playwright](https://playwright.dev/)
 
-### 🚀 Cloud & Deployment
+## 🚀 Cloud & Deployment
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/Rabbitmq-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![Hostinger](https://img.shields.io/badge/hostinger-%23673DE6.svg?style=for-the-badge&logo=hostinger&logoColor=white)
@@ -81,7 +94,7 @@
     - [Spring AMQP for Java](https://spring.io/projects/spring-amqp)
 - [Hostinger (Domain Name)](https://www.hostinger.com/)
 
-### 🏗️ DevOps
+## 🏗️ DevOps
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
 ![Terraform](https://img.shields.io/badge/terraform-%235835CC.svg?style=for-the-badge&logo=terraform&logoColor=white)
@@ -89,19 +102,19 @@
 - [GitHub Actions](https://github.com/features/actions)
 - [Hashicorp's Terraform](https://developer.hashicorp.com/terraform)
 
-### 🌐 Cross-Cutting Concerns (API Gateway, Database Caching)
+## 🌐 Cross-Cutting Concerns (API Gateway, Database Caching)
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
 - [Kong](https://konghq.com/company/why-kong?utm_source=google&utm_medium=cpc&utm_campaign=brand&utm_term=kong%20api&utm_content=why-kong_landing-page_search&gad_source=1&gad_campaignid=1691307008&gbraid=0AAAAAD3UpvR3vPHq1lOdC0adgNuo5pZWt) & [Nginx](https://nginx.org/)
 - [Redis (REmote DIctionary Server)](https://redis.io/)
 
-### 🔐 Security
+## 🔐 Security
 ![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 ![SonarQube](https://img.shields.io/badge/SonarQube-black?style=for-the-badge&logo=sonarqube&logoColor=4E9BCD)
 - [JSON Web Token (JWT)](https://www.jwt.io/)
 - [SonarQube](https://www.sonarsource.com/products/sonarqube/cloud/)
 
-### 🔍 Monitoring, Telemetry, and Observability
+## 🔍 Monitoring, Telemetry, and Observability
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=Prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/grafana-%23F46800.svg?style=for-the-badge&logo=grafana&logoColor=white)
 ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white)
@@ -111,7 +124,7 @@
 - [Istio](https://istio.io/)
 - [Kiali](https://kiali.io/)
 
-### 🔌 Third-Party APIs
+## 🔌 Third-Party APIs
 ![Slack](https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white)
 ![Stripe](https://img.shields.io/badge/Stripe-5469d4?style=for-the-badge&logo=stripe&logoColor=ffffff)
 - [Slack API](https://slack.com/intl/en-gb/)
@@ -119,7 +132,7 @@
 - [OpenAI API](https://openai.com/index/openai-api/)
 - [Stripe API](https://docs.stripe.com/api)
 
-### 🚧 Local Development
+## 🚧 Local Development
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
@@ -140,7 +153,7 @@
 - [WindowsOS](https://en.wikipedia.org/wiki/Microsoft_Windows)
 - [LinuxOS](https://www.linux.org/)
 
-### 🎨 Design & Diagramming
+## 🎨 Design & Diagramming
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Penpot](https://img.shields.io/badge/penpot-%23FFFFFF.svg?style=for-the-badge&logo=penpot&logoColor=black)
 ![YAML](https://img.shields.io/badge/yaml-%23ffffff.svg?style=for-the-badge&logo=yaml&logoColor=151515)
@@ -154,7 +167,7 @@
 - [PlantUML](https://plantuml.com/) ([Unifed Modelling Language (UML)](https://en.wikipedia.org/wiki/Unified_Modeling_Language))
 - [Mermaid Diagram](https://mermaid.js.org/)
 
-### 🎯 Project Management
+## 🎯 Project Management Suite
 ![Jira](https://img.shields.io/badge/jira-%230A0FFF.svg?style=for-the-badge&logo=jira&logoColor=white)
 ![Trello](https://img.shields.io/badge/Trello-%23026AA7.svg?style=for-the-badge&logo=Trello&logoColor=white)
 ![Google Drive](https://img.shields.io/badge/Google%20Drive-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)
@@ -166,24 +179,21 @@
 - [Telegram](https://web.telegram.org/)
 - [Discord](https://discord.com/)
 
-## Architecture
-### Overview Architecture (Simplified)
+# Architecture
+## Overview Architecture (Simplified)
 WIP
 
-### Cloud Architecture (AWS Diagram)
+## Cloud Architecture (AWS Diagram)
 WIP
 
-### Message Diagrams 
-WIP
-
-## Features
-### Core Features
+# Features
+## Core Features
 1. Facility Booking System Clone (FBS)
 2. Bidding Online SyStem Clone (BOSS)
 3. Curriculum & Degree Progression
 4. Afterclass Reviews Clone 
 
-### Core Services (WIP)
+## Core Services (WIP)
 - Booking Service
 - Bidding Service
 - Curriculum Service
@@ -192,7 +202,21 @@ WIP
 - IAM Service
 - Orchestrator Service
 
+# Documentation (WIP)
+## Per-Service Documentation
+WIP
+## Message Diagrams
+WIP 
+
+# Project Management
 ## Workflow
-- Agile Methodology
-- Scrum + Kanban (ScrumBan)
-- Test Driven Development (TDD) with API Contracts & Documentation
+- [Agile Methodology](https://en.wikipedia.org/wiki/Agile_software_development)
+- [Scrum](https://en.wikipedia.org/wiki/Scrum_(project_management)) + [Kanban](https://www.atlassian.com/agile/kanban) (ScrumBan)
+- [Test Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development) with [API Contracts](https://www.geeksforgeeks.org/system-design/api-contracts-system-design/) & Documentation
+
+## Timeline (WIP)
+WIP
+
+## Contributors / Team
+- [BillyBillyLabs](https://github.com/billjohnathan8)
+- [Miyunana](https://github.com/Miyunana)
